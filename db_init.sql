@@ -1,0 +1,2 @@
+CREATE DATABASE IF NOT EXISTS RU_mobilization CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+CREATE TABLE mobilized (name varchar(100), surname varchar(100), patronymic varchar(100), DOB date, address varchar(500), id varchar(20), office varchar(255));
